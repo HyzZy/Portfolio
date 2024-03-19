@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="assets/style/styles.css">
+</head>
+<body>
+
+    <!-- HEADER SECTION -->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#home">BRUNO</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home" onclick="selecionar()">HOME</a></li>
+                    <li><a href="#aboutme" onclick="selecionar()">ABOUT ME</a></li>
+                    <li><a href="#skills" onclick="selecionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="selecionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="selecionar()">PORTFOLIO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!-- END HEADER SECTION -->
+
+    <!-- HOME SECTION -->
+
+    <section id="home" class="home">
+        <div class="container-banner">
+            <div class="container-img">
+                <img src="assets/img/personal.jpg" alt="Photo of myself">
+            </div>
+            <h1>BRUNO PEREIRA</h1>
+            <h2>Software Developer</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/bruno-pereira-1343b024b/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/HyzZy" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- END HEADER SECTION -->
+
+    <!-- ABOUT ME SECTION -->
+
+    <section id="aboutme" class="aboutme">
+        <div class="container-section">
+            <h2>ABOUT ME</h2>
+            <p><span>Hello there! I'm Bruno Pereira,</span> a passionate and driven software developer with a knack for turning complex problems into elegant soluctions.
+            I thrive in dynamic environments where collaboration and creativity are valued.</p>
+
+            <div class="fila">
+                <div class="col">
+                    <h3>Personal Data</h3>
+                    <ul>
+                        <li>
+                            <strong>Birthday</strong>
+                            13-12-2002
+                        </li>
+                        <li>
+                            <strong>Phone Number</strong>
+                            (+351) 938 126 955
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            brunosoarespereira64@gmail.com
+                        </li>
+                        <li>
+                            <strong>Country</strong>
+                            Portugal
+                        </li>
+                        <li>
+                            <strong>Position</strong>
+                            <span>SOFTWARE DEVELOPER</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="col">
+                    <h3>Interests and Hobby's</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>GAMES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>TECHNOLOGY</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>TRAVEL</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>SPORT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button><a style="color: white; text-decoration: none;" href="" download>DOWNLOAD CV <i class="fa-solid fa-download"></i><span class="overlay"></span></a></button>
+        </div>
+    </section>
+
+    <!-- END ABOUT ME SECTION -->
+
+    <!-- SKILLS SECTION -->
+
+    <section class="skills" id="skills">
+        <div class="container-section">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>HTML & CSS & Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>ASP .NET MVC</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C#</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C++</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PYTHON</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>JAVA</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>VISUAL BASIC .NET</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunication</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Team Work</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creativity</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedication</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Project Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- END SKILLS SECTION -->
+
+    <!-- CURRICULUM SECTION -->
+
+    <section id="curriculum" class="curriculum">
+        <div class="container-section">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Extracurricular Internship</h3>
+                    <div class="item izq">
+                        <h4>Software Developer Trainee</h4>
+                        <span class="casa">wTVision Lisbon</span>
+                        <span class="fecha">01/2024 - 03/2024</span>
+                        <p>Worked with Vue3, IronPython, Scriban, GitLab and some in-house software to perfect and complete graphics.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Curricular Internship</h3>
+                    <div class="item der">
+                        <h4>IT Technician</h4>
+                        <span class="casa">ITQB NOVA</span>
+                        <span class="fecha">09/2023 - 11/2023</span>
+                        <p>As part of the curricular internship, at the end of the Computer Programming course, i had the opportunity to carry out hardware and software maintence, network administrator, helpdesk,
+                            PHP programming using Yii Framework: development of scripts to import data from CSV files into a MySQL database and implementacion of the scripts in Yii, support in the development of a web application for evaluations. (18)</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Course LEVEL 4 (EQF)</h3>
+                    <div class="item izq">
+                        <h4>Computer Programming</h4>
+                        <span class="casa">IEFP Vila Nova de Gaia</span>
+                        <span class="fecha">09/2022 - 11/2023</span>
+                        <p>I acquired knowledge of computer architecture, computer networks, network administration, databases (SQL, MySQL) and programming languages (C, C++, C#, Java, Python, Visual Basic .Net, ASP.NET MVC)</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- END CURRICULUM SECTION -->
+
+    <!-- SECTION FOOTER -->
+
+    <footer style="background-color: #1e2326;">
+        <a href="#home" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/bruno-pereira-1343b024b/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/HyzZy" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <!-- END SECTION FOOTER -->
+
+    <script src="assets/script/script.js"></script>
+</body>
+</html>
